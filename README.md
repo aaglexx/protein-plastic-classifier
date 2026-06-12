@@ -12,6 +12,12 @@ Demo: https://aaglexx-protein-plastic-classifier.hf.space
 protein sequence -> ESM-2 (embeddings) -> logistic regression -> plastic / not plastic
 ```
 
+## Visualization
+
+![UMAP](umap.png)
+
+Plastic-degrading proteins (red) form distinct clusters separate from non-plastic proteins (blue), confirming the model captures meaningful biological structure.
+
 ## Results
 
 Trained on 9212 proteins (4212 positive, 5000 negative) from UniProtKB.
