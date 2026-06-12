@@ -4,10 +4,12 @@ Binary classifier that predicts whether a protein can degrade plastic (PET).
 
 Built with ESM-2 (Meta's protein language model) as a feature extractor and logistic regression as the classifier.
 
+Demo: https://aaglexx-protein-plastic-classifier.hf.space
+
 ## How it works
 
 ```
-protein sequence → ESM-2 (embeddings) → logistic regression → plastic / not plastic
+protein sequence -> ESM-2 (embeddings) -> logistic regression -> plastic / not plastic
 ```
 
 ## Results
